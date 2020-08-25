@@ -39,7 +39,7 @@
     align-items: center;
     /* background-image: url(./lighter\ honeycomb\ .jpg);
     background-size: 300px 500px; */
-    height: 350px;
+    height: 50vh;
     background-color:#e2e9e2;
     margin-left: 5%;
     margin-right: 5%;
@@ -61,7 +61,7 @@
 }
 .miniBio {
     width: 40vw;
-    font-size: larger;
+    font-size: 3vh;
     /* margin-left: 8%; */
 }
 .bioHeader2 {
