@@ -47,7 +47,7 @@
     padding-right: 5%;
 }
 .headshot {
-    height: 300px;
+    height: 40vh;
     /* padding-right: 50px;
     padding-left: 50px; */
     border-radius: 50%;
@@ -60,9 +60,8 @@
     margin-left: 7%;
 }
 .miniBio {
-    width: 70%;
+    width: 40vw;
     font-size: larger;
-    width: 90%;
     /* margin-left: 8%; */
 }
 .bioHeader2 {
@@ -74,9 +73,8 @@
 }
 .softSkills {
     text-align: center;
-    padding-top: 30px;
-    font-size: 20px;
-    //border: black solid 2px;
+    padding-top: 5vh;
+    font-size: 3vh;
 }
 .softSkillBlocks {
     display: flex;
@@ -86,27 +84,27 @@
     margin: auto;
 }
 .communicationBlock {
-    width: 200px;
-    height: 200px;
+    width: 29vh;
+    height: 29vh;
 }
 .teamworkBlock {
-    width: 200px;
-    height: 200px;
+    width: 29vh;
+    height: 29vh;
 }
 .psBlock {
-    width: 200px;
-    height: 200px;
+    width: 29vh;
+    height: 29vh;
 }
 .selfmotivBlock {
-    width: 200px;
-    height: 200px;
+    width: 29vh;
+    height: 29vh;
 }
 .skillsSection {
     /* display: flex;
     justify-content: center; */
     padding-top: 50px;
     //padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 3vh;
     text-align: center;
 }
 .skillBlocks {
