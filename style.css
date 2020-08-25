@@ -224,5 +224,8 @@ footer{
     color:darkgreen;
     text-decoration: none;
     text-align: center;
-    
+
+}
+.projects a:hover {
+    color: #a6c18a
 }
