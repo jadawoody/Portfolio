@@ -57,13 +57,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 10%;
-
+    margin-left: 7%;
 }
 .miniBio {
     width: 70%;
     font-size: larger;
-    width: 97%;
+    width: 90%;
     /* margin-left: 8%; */
 }
 .bioHeader2 {
