@@ -41,8 +41,8 @@
     background-size: 300px 500px; */
     height: 50vh;
     background-color:#e2e9e2;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -66,7 +66,7 @@
 }
 .miniBio2 {
     text-align: center;
-    width: 70vh;
+    width: 70vw;
 }
 .softSkills {
     text-align: center;
@@ -78,8 +78,24 @@
     height: 30vh;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
 }
+/* @media (min-width:750px){
+    .softSkillBlocks {
+        display: flex;
+        height: 30vh;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media (max-width:750px){
+    .softSkillBlocks {
+        display: flex;
+        height: 30vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+} */
 .communicationBlock {
     width: 29vh;
     height: 29vh;
@@ -144,22 +160,22 @@ footer{
 }
 #flname {
     padding: 1vh;
-    width: 10vh;
+    width: 15vh;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
 }
 #email {
-    padding: 12px;
-    width: 200px;
+    padding: 1vh;
+    width: 25vw;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
 }
 #message {
     padding-top: 12px;
-    width: 300px;
-    height: 200px;
+    width: 30vw;
+    height: 30vh;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -168,48 +184,46 @@ footer{
     background-color: #e2e9e2;
     color: black;
     border-radius: 4px;
-    width: 90px;
-    height: 30px;
-    margin-top: 5px;
+    width: 8vw;
+    height: 4vh;
+    margin-top: 1vh;
 }
 .contactBody{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 60px;
-    margin-top: 30px;
+    margin-bottom: 6vh;
+    margin-top: 6vh;
 }
 /* #linkedinButton {
     height: 15%;
     width: 80%
 } */
 #linkedInLogo {
-    height: 100px;
-    width: 170px;
+    height: 13vh;
+    width: 18vw;
 }
 #gmailLogo {
-    height: 100px;
-    width: 170px;
+    height: 13vh;
+    width: 18vw;
 }
 #codepenLogo {
-    height: 80px;
-    width: 170px;
+    height: 15vh;
+    width: 20vw;
 }
 #calendlyLogo {
-    height: 80px;
-    width: 190px;
+    height: 12vh;
+    width: 20vw;
 }
 .socialImages {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    //border: solid black 2px;
 }
 .container2{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    //border: solid black 2px;
     width: 30vw;
     border-radius: 1%;
     background-color: #8fa382;
@@ -219,7 +233,7 @@ footer{
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
-    font-size: 20px;
+    font-size: 3vh;
     color: darkgreen;
 }
 .projects a {
