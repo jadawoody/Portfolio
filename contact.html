@@ -34,15 +34,15 @@
 
         <div class="container">
             <h3>Contact Form</h3>
-            <form action="mailto:jadawoody@gmail.com" method="POST">
+            <form enctype="text/plain" action="mailto:jadawoody@gmail.com?body=hello" method="POST">
                 <label for="fname">Your Name</label>
-                <input type="text" id="flname" required name="firstlastname" placeholder="Your Full Name">
+                <input type="text" id="flname" required name="Name" placeholder="Your Full Name">
 
                 <label for="email">Email Address</label>
-                <input type="email" id="email" required name="emailaddress" placeholder="Your Email Address">
+                <input type="email" id="email" required name="Email Address" placeholder="Your Email Address">
 
                 <label for="message">Type Your Message</label>
-                <textarea id="message" name="message" required placeholder="Type Your Message Here"></textarea>
+                <textarea type="text" id="message" name="Message" required placeholder="Type Your Message Here"></textarea>
                 
                 <input type="submit" value="Send" class="sendButton">
                 <!-- <a href="mailto:jadawoody@gmail.com" type="submit" value="Send" class="sendButton">Send</a> -->

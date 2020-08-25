@@ -137,14 +137,14 @@ footer{
 }
 .container {
     //margin-left: 6%;
-    border-radius: 2%;
+    border-radius: 1%;
     background-color: #8fa382;
     padding: 5%;
-    width: 310px;
+    width: 30vw;
 }
 #flname {
-    padding: 12px;
-    width: 200px;
+    padding: 1vh;
+    width: 10vh;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -210,10 +210,10 @@ footer{
     flex-direction: column;
     justify-content: center;
     //border: solid black 2px;
-    width: 310px;
-    border-radius: 5px;
+    width: 30vw;
+    border-radius: 1%;
     background-color: #8fa382;
-    padding: 20px;
+    padding: 5%;
 }
 .projects {
     padding-top: 5%;
