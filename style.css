@@ -3,9 +3,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-right: 50px;
+    padding-right: 5%;
+
+    /* padding-right: 50px;
     bottom: 100px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
 
 }
 .homeLink {
@@ -39,8 +41,8 @@
     background-size: 300px 500px; */
     height: 350px;
     background-color:#e2e9e2;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .headshot {
     height: 300px;
