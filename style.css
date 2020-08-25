@@ -43,21 +43,28 @@
     background-color:#e2e9e2;
     margin-left: 5%;
     margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .headshot {
     height: 300px;
     /* padding-right: 50px;
     padding-left: 50px; */
     border-radius: 50%;
+    /* margin-left: 15%; */
 }
 .bioHeader {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 10%;
+
 }
 .miniBio {
-    width: 300px;
+    width: 70%;
     font-size: larger;
+    width: 97%;
+    /* margin-left: 8%; */
 }
 .bioHeader2 {
     text-align: center;
