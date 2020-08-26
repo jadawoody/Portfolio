@@ -421,5 +421,33 @@ footer{
 .digitalMarketing {
     /* text-align: center; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} 
+.experienceDM {
+    margin-bottom: auto;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.myAccounts {
+    margin-top: auto;
+    font-weight: 300;
+    color: black;
+}
+#myAccountsList {
+    margin-top: auto;
+    font-weight: 300;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    color: black;
+}
+#myAccountsList a {
+    color: black;
+    text-decoration: none;
+}
+#myAccountsList a :hover{
+    color: darkgreen;
 }
