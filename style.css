@@ -418,3 +418,8 @@ footer{
     text-decoration: none;
     text-align: center;
 }
+.digitalMarketing {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
