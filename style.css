@@ -405,6 +405,9 @@ footer{
     margin-bottom: 5vh;
     text-decoration: none;
 }
+#classmates a:hover {
+    color: darkgreen;
+}
 @media (max-width: 500px){
     #classmates{
         display: flex;
