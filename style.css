@@ -79,6 +79,18 @@
     justify-content: space-around;
     align-items: center;
 }
+/* .softSkillBlocks :hover {
+    animation-name: bounce 3s;
+}
+@keyframes bounce {
+    from {
+        transform: scale(0px);
+    }
+    to {
+        transform: scale(10px);
+    }
+} */
+
 /* @media (min-width:750px){
     .softSkillBlocks {
         display: flex;
@@ -173,7 +185,7 @@ footer{
     flex-direction: column;
 }
 #message {
-    padding-top: 12px;
+    padding-top: 1.5vh;
     width: 30vw;
     height: 30vh;
     border-radius: 4px;
@@ -218,12 +230,13 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .container2{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     width: 30vw;
     border-radius: 1%;
     background-color: #8fa382;
@@ -235,13 +248,32 @@ footer{
     text-align: center;
     font-size: 3vh;
     color: darkgreen;
+    margin-top: 5vh;
 }
 .projects a {
     color:darkgreen;
     text-decoration: none;
     text-align: center;
-
 }
 .projects a:hover {
     color: #a6c18a
 }
+#webclass {
+    text-align: center;
+    margin-top: 5vh;
+}
+#classmates {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vh;
+    text-decoration: none;
+}
+ #classmates a { 
+    color: black;
+    text-decoration: none;
+
+} */
