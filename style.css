@@ -4,11 +4,12 @@
     justify-content: space-around;
     align-items: center;
     padding-right: 5%;
-
-    /* padding-right: 50px;
-    bottom: 100px;
-    padding-bottom: 10px; */
-
+}
+@media (max-width: 500px){
+    .navbar-list{
+        display: flex;
+        flex-direction: column;
+    }
 }
 .homeLink {
     color: black;
@@ -46,6 +47,14 @@
     padding-left: 5%;
     padding-right: 5%;
 }
+@media (max-width: 500px){
+    .helloHeader{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        justify-content: center;
+    }
+}
 .headshot {
     height: 40vh;
     border-radius: 50%;
@@ -61,12 +70,58 @@
     font-size: 3vh;
     /* margin-left: 8%; */
 }
+@media (max-width: 500px){
+    .bioHeader {
+        display: flex;
+        width: 50vw;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 500px){
+    .miniBio {
+        display: flex;
+        width: 50vw;
+        align-items: center;
+        text-align: center;
+    }
+}
 .bioHeader2 {
     text-align: center;
+}
+@media (max-width: 500px){
+    .bioHeader2 {
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.helloHeader2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-image: url(./lighter\ honeycomb\ .jpg);
+    background-size: 300px 500px; */
+    height: 50vh;
+    background-color:#e2e9e2;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@media (max-width: 500px){
+    .helloHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 .miniBio2 {
     text-align: center;
     width: 70vw;
+    display: flex;
+    justify-content: center;
 }
 .softSkills {
     text-align: center;
@@ -79,18 +134,31 @@
     justify-content: space-around;
     align-items: center;
 }
-/* .softSkillBlocks :hover {
-    animation-name: bounce 3s;
+@media (max-width: 500px){
+    .softSkills{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
 }
-@keyframes bounce {
-    from {
-        transform: scale(0px);
+@media (max-width: 500px){
+    .softSkillBlocks {
+        display: flex;
+        flex-direction: column;
+        margin-top: 43vh;
+        justify-content: center;
+        align-items: space-evenly;
     }
-    to {
-        transform: scale(10px);
+}
+@media (max-width: 500px){
+    .skillsSection {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30vh;
+        //margin-bottom: 80vh;
+        justify-content: center;
     }
-} */
-
+}
 /* @media (min-width:750px){
     .softSkillBlocks {
         display: flex;
@@ -112,22 +180,43 @@
     width: 29vh;
     height: 29vh;
 }
+@media (max-width: 500px){
+    .communicationBlock{
+        margin-top: 15vh;
+        margin-bottom: 3vh;
+    }
+}
 .teamworkBlock {
     width: 29vh;
     height: 29vh;
+}
+@media (max-width: 500px){
+    .teamworkBlock{
+        margin-bottom: 3vh;
+    }
 }
 .psBlock {
     width: 29vh;
     height: 29vh;
 }
+@media (max-width: 500px){
+    .psBlock{
+        margin-bottom: 3vh;
+    }
+}
 .selfmotivBlock {
     width: 29vh;
     height: 29vh;
 }
+@media (max-width: 500px){
+    .selfmotivBlock{
+        margin-bottom: 8vh;
+    }
+}
 .skillsSection {
     /* display: flex;
     justify-content: center; */
-    padding-top: 2vh;
+    padding-top: 7vh;
     font-size: 3vh;
     text-align: center;
 }
@@ -139,11 +228,36 @@
     padding-bottom: 7vh;
     height: 30vh;
 }
+@media (max-width: 500px){
+    .skillsSection{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px){
+    .skillBlocks{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30vh;
+        margin-bottom: 30vh;
+    }
+}
 .htmllogo {
     height: 29vh;
 }
+@media (max-width: 500px){
+    .htmllogo{
+        margin-bottom: 3vh;
+    }
+}
+
 .csslogo {
     height: 29vh;
+}
+@media (max-width: 500px){
+    .csslogo{
+        margin-bottom: 3vh;
+    }
 }
 .jslogo {
     height: 29vh;
@@ -163,12 +277,31 @@ footer{
     display: flex;
     justify-content: center;
 }
+ /* @media (max-width:500px){
+    .allContactBody{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+@media (max-width:500px){
+    .contactBody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} 
 .container {
     //margin-left: 6%;
     border-radius: 1%;
     background-color: #8fa382;
     padding: 5%;
     width: 30vw;
+}
+@media (max-width: 500px){
+    .container {
+        width: 50vw;
+        margin-bottom: 5vh;
+    }
 }
 #flname {
     padding: 1vh;
@@ -206,10 +339,6 @@ footer{
     margin-bottom: 6vh;
     margin-top: 6vh;
 }
-/* #linkedinButton {
-    height: 15%;
-    width: 80%
-} */
 #linkedInLogo {
     height: 13vh;
     width: 18vw;
@@ -229,18 +358,22 @@ footer{
 .socialImages {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .container2{
     display: flex;
     align-items: center;
-    flex-direction: column;
-    /* justify-content: center; */
+    flex-direction: column; */
+    justify-content: center;
     width: 30vw;
     border-radius: 1%;
     background-color: #8fa382;
     padding: 5%;
+}
+@media (max-width: 500px){
+    .container2{
+        width: 50%;
+    }
 }
 .projects {
     padding-top: 5%;
@@ -272,8 +405,39 @@ footer{
     margin-bottom: 5vh;
     text-decoration: none;
 }
+@media (max-width: 500px){
+    #classmates{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+} 
+@media (max-width: 700px){
+    #classmates{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+    }
+} 
  #classmates a { 
     color: black;
     text-decoration: none;
-
+    text-align: center;
+}
+/* @media(max-width:500px){
+    #classmates a {
+        display: flex;
+        align-self: center;
+        width: 20vw;
+    }
+} */
+/* @media (max-width: 500px){
+    .footerClass{
+        width: 40vw;
+        text-align: center;
+        /* display: flex;
+        justify-self: center; */
+    }
 } */
