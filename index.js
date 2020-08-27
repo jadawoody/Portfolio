@@ -1,19 +1,6 @@
 
 // console.log('JS connected')
 // document.querySelector().onscroll=function(event)
-document.querySelector('.btn').onclick = getStats
-function getStats(){
-    axios
-        .get(`https://dog.ceo/api/breeds/image/random`)
-        .then((res)=> {
-            //console.log(res.data)
-            document.querySelector(".powGoesHere").innerHTML +=
-            
-            `<img src="${res.data.message}" />`
-
-        })
-}
-
 
 document.querySelector('.emojiBtn').onclick = getDwight
 function getDwight(){
@@ -29,9 +16,25 @@ function getDwight(){
         console.log(gif)
 
         document.querySelector(".popGoesHere").innerHTML += `<iframe src="${gif}" width="480" height="380" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>`
-
+        
     })
 }
+
+
+document.querySelector('.btn').onclick = getStats
+function getStats(){
+    axios
+        .get(`https://dog.ceo/api/breeds/image/random`)
+        .then((res)=> {
+            //console.log(res.data)
+            document.querySelector(".powGoesHere").innerHTML +=
+            
+            `<img src="${res.data.message}" />`
+
+        })
+}
+
+
 
    
     // .then((res)=>{
