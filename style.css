@@ -431,9 +431,6 @@ footer{
 #webclass {
     text-align: center;
     margin-top: 5vh;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 #classmates {
     text-align: center;
