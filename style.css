@@ -412,8 +412,8 @@ footer{
     color: #a6c18a
 }
 #IHlogo {
-    height: 6vh;
-    width: 4vw;
+    height: 5%;
+    width: 5%;
     padding-right: 1%;
 }
 .divWebClass{
@@ -423,14 +423,17 @@ footer{
     align-items: center;
 }
 #partypopper {
-    height: 5.5vh;
-    width: 3.5vw;
+    height: 5%;
+    width: 5%;
     padding-left: 1%;
 
 }
 #webclass {
     text-align: center;
     margin-top: 5vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 #classmates {
     text-align: center;
