@@ -132,7 +132,11 @@
     display: flex;
     height: 30vh;
     justify-content: space-around;
-    align-items: center;
+    margin-right: 4%;
+    /* align-items: center; */
+}
+.softSkillBlocks :hover{
+    transform: scale(1.1);
 }
 @media (max-width: 500px){
     .softSkills{
@@ -202,6 +206,9 @@
     padding-top: 7vh;
     font-size: 3vh;
     text-align: center;
+}
+.skillBlocks :hover{
+    transform: scale(1.1);
 }
 .skillBlocks {
     display: flex;
@@ -277,19 +284,20 @@ footer{
     margin: 6%;
     border-radius: 1%;
     background-color: #8fa382;
-    padding: 5%;
+    padding: 3%;
     width: 30vw;
 }
 .container2{
+    margin: 6%;
+    border-radius: 1%;
+    background-color: #8fa382;
+    padding: 3%;
+    width: 30vw;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center; */
-    width: 30vw;
-    border-radius: 1%;
-    background-color: #8fa382;
-    padding: 5%;
-    margin: 6%;
+    justify-content: center; 
+    
 }
 @media (max-width: 500px){
     .container2{
@@ -363,7 +371,6 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-
 .projects {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -431,8 +438,9 @@ footer{
 }
 .myAccounts {
     margin-top: auto;
-    font-weight: 300;
+    font-weight: 350;
     color: black;
+    margin-bottom: auto;
 }
 #myAccountsList {
     margin-top: auto;
