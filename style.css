@@ -334,8 +334,11 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     
+}
+#getintouch{
+    text-align: center;
 }
 @media (max-width: 500px){
     .container2{
@@ -452,13 +455,13 @@ footer{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    margin-left: 10vw;
+    /* margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 5vh;
+    margin-bottom: 5vh; */
     text-decoration: none;
 }
-#classmates a:hover {
-    color: darkgreen;
+/* #classmates a:hover {
+    color: darkgreen; */
 }
 @media (max-width: 500px){
     #classmates{
