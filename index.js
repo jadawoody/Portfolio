@@ -1,3 +1,4 @@
+
 // console.log('JS connected')
 // document.querySelector().onscroll=function(event)
 document.querySelector('.btn').onclick = getStats

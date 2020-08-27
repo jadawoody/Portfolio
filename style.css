@@ -133,7 +133,7 @@
     height: 30vh;
     justify-content: space-around;
     margin-right: 4%;
-    /* align-items: center; */
+    align-items: center;
 }
 .softSkillBlocks :hover{
     transform: scale(1.1);
