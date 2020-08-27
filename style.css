@@ -5,6 +5,19 @@
     align-items: center;
     padding-right: 5%;
 }
+.navbar-list-fun {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 5%;
+}
+@media (max-width: 500px){
+    .navbar-list-fun{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media (max-width: 500px){
     .navbar-list{
         display: flex;
