@@ -408,6 +408,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 12%;
 }
 .projects {
     padding-top: 5%;
