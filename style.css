@@ -459,3 +459,22 @@ footer{
 #myAccountsList a :hover{
     color: darkgreen;
 }
+.btn {
+    color: darkgreen;
+    background-color: #e2e9e2;
+    width: 30vw;
+    height: 6vh;
+    border-radius: 5px;
+}
+.emojiBtn{
+    color: darkgreen;
+    background-color: #e2e9e2;
+    width: 30vw;
+    height: 6vh;
+    border-radius: 5px;
+}
+.funBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

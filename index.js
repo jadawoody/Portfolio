@@ -13,14 +13,28 @@ function getStats(){
 
         })
 }
-// document.querySelector('.emojiBtn').onclick = getEmoji
-// function getEmoji(){
-//     const emojikey = access_key=123412341234
-//     axios
-//     .get(`https://emoji-api.com/emojis/grinning-squinting-face`)
-//     .then((res)=>{
-//         document.querySelector("popGoesHere").innerHTML +=
 
-//         `<img src"${res.data.message}" />`
-//     })
-// }
+
+document.querySelector('.emojiBtn').onclick = getDwight
+function getDwight(){
+    axios
+    .get(`https://api.giphy.com/v1/gifs/search?api_key=yb149luAHTTk93BHeVERsDqNUUxcgJEC&q=the office&limit=25&offset=0&rating=g&lang=en`)
+    .then((res)=> {
+        console.log(res)
+        let gifs=res.data.data;
+        console.log(gifs)
+        let randomnum=Math.floor(Math.random()*gifs.length)
+        console.log(randomnum)
+        let gif= gifs[randomnum].embed_url
+        console.log(gif)
+
+        document.querySelector(".popGoesHere").innerHTML += `<iframe src="${gif}" width="480" height="380" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>`
+
+    })
+}
+     
+    // .then((res)=>{
+    //     document.querySelector(".popGoesHere").innerHTML +=
+    //    // `<img src="${res.data.message}" />`
+    // })
+
