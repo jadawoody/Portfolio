@@ -387,6 +387,23 @@ footer{
 .projects a:hover {
     color: #a6c18a
 }
+#IHlogo {
+    height: 6vh;
+    width: 4vw;
+    padding-right: 1%;
+}
+.divWebClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#partypopper {
+    height: 5.5vh;
+    width: 3.5vw;
+    padding-left: 1%;
+
+}
 #webclass {
     text-align: center;
     margin-top: 5vh;
@@ -430,6 +447,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: darkgreen;
 } 
 .experienceDM {
     margin-bottom: auto;
@@ -441,6 +459,7 @@ footer{
     font-weight: 350;
     color: black;
     margin-bottom: auto;
+    color: darkgreen;
 }
 #myAccountsList {
     margin-top: auto;
@@ -450,14 +469,13 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 1vw;
-    color: black;
-}
+    color: black;}
 #myAccountsList a {
-    color: black;
+    color: darkgreen;
     text-decoration: none;
 }
 #myAccountsList a :hover{
-    color: darkgreen;
+    color: #a6c18a;
 }
 .btn {
     color: darkgreen;
