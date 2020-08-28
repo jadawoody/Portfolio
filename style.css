@@ -395,17 +395,41 @@ footer{
     height: 13vh;
     width: 18vw;
 }
+@media (max-width: 500px){
+    #linkedInLogo{
+        height: 15vh;
+        width: 25vw;
+    }
+}
 #gmailLogo {
     height: 13vh;
     width: 18vw;
+}
+@media (max-width: 500px){
+    #gmailLogo{
+        height: 15vh;
+        width: 25vw;
+    }
 }
 #codepenLogo {
     height: 15vh;
     width: 20vw;
 }
+@media (max-width: 500px){
+    #codepenLogo{
+        height: 17vh;
+        width: 27vw;
+    }
+}
 #calendlyLogo {
     height: 12vh;
     width: 20vw;
+}
+@media (max-width: 500px){
+    #calendlyLogo{
+        height: 12vh;
+        width: 27vw;
+    }
 }
 .socialImages {
     display: flex;
