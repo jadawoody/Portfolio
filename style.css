@@ -496,7 +496,11 @@ footer{
 @media (min-width: 800px){
     .socialImages{
         margin-right: 10%;
-        
+    }
+}
+@media (max-width: 400px){
+    .socialImages{
+        margin-right: 30%;
     }
 }
 .projects {
