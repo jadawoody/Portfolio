@@ -401,6 +401,12 @@ footer{
         width: 25vw;
     }
 }
+@media (min-width: 1000px){
+    #linkedInLogo{
+        height: 15vh;
+        width: 15vw;
+    }
+}
 #gmailLogo {
     height: 13vh;
     width: 18vw;
@@ -409,6 +415,12 @@ footer{
     #gmailLogo{
         height: 15vh;
         width: 25vw;
+    }
+}
+@media (min-width: 1000px){
+    #gmailLogo{
+        height: 15vh;
+        width: 15vw;
     }
 }
 #codepenLogo {
@@ -421,6 +433,12 @@ footer{
         width: 27vw;
     }
 }
+@media (min-width: 1000px){
+    #codepenLogo{
+        height: 17vh;
+        width: 17vw;
+    }
+}
 #calendlyLogo {
     height: 12vh;
     width: 20vw;
@@ -429,6 +447,12 @@ footer{
     #calendlyLogo{
         height: 12vh;
         width: 27vw;
+    }
+}
+@media (min-width: 1000px){
+    #calendlyLogo{
+        height: 15vh;
+        width: 15vw;
     }
 }
 .socialImages {
@@ -458,6 +482,12 @@ footer{
     width: 5%;
     padding-right: 1%;
 }
+@media (min-width: 1000px){
+    #IHlogo {
+        height: 4%;
+        width: 4%;
+    }
+}
 .divWebClass{
     display: flex;
     flex-direction: row;
@@ -468,6 +498,12 @@ footer{
     height: 5%;
     width: 5%;
     padding-left: 1%;
+}
+@media (min-width: 1000px){
+    #partypopper {
+        height: 4%;
+        width: 4%;
+    }
 }
 #webclass {
     text-align: center;
