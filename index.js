@@ -2,6 +2,9 @@
 // console.log('JS connected')
 // document.querySelector().onscroll=function(event)
 
+// alert("Entering Jada's Portfolio! Welcome!")
+
+
 document.querySelector('.emojiBtn').onclick = getDwight
 function getDwight(){
     axios
@@ -34,11 +37,4 @@ function getStats(){
         })
 }
 
-
-
-   
-    // .then((res)=>{
-    //     document.querySelector(".popGoesHere").innerHTML +=
-    //    // `<img src="${res.data.message}" />`
-    // })
 
