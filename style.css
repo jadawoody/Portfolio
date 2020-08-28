@@ -72,6 +72,11 @@
     height: 40vh;
     border-radius: 50%;
 }
+@media (max-width: 500px){
+    .headshot{
+        height: 30vh;
+    }
+}
 .bioHeader {
     display: flex;
     flex-direction: column;
