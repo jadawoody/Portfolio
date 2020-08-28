@@ -78,6 +78,13 @@
     justify-content: center;
     margin-left: 7%;
 }
+.intro :hover{
+    color: red;
+}
+/* @keyframes bouncey{
+    0% { top: 0; bottom: 0;}
+    50% {top: 10vh}
+}  */
 .miniBio {
     width: 40vw;
     font-size: 3vh;
